@@ -1,0 +1,45 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Users Dashboard</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- Chart.js -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+
+    <body>
+        <h1>Users Dashboard</h1>
+
+        <div class="kpis">
+            <div class="tile">
+                <h2 id="totalUsers">0</h2>
+                <p>Total Users</p>
+            </div>
+            <div class="tile">
+                <h2 id="withAvatars">0</h2>
+                <p>With Avatars</p>
+            </div>
+        </div>
+
+        <div class="charts">
+            <div class="chart-card"><canvas id="usersPerDay"></canvas></div>
+            <div class="chart-card"><canvas id="avatarDist"></canvas></div>
+            <div class="chart-card full"><canvas id="signupHours"></canvas></div>
+        </div>
+
+        <div class="recent">
+            <h3>Recently Joined Users</h3>
+            <ul id="recentUsers"></ul>
+        </div>
+
+        <footer>
+            Generated at <span id="generatedAt">—</span>
+        </footer>
+
+        <script src="main.js"></script>
+    </body>
+
+    </html>
