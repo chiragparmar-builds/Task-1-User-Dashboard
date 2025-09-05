@@ -15,11 +15,3 @@ A lightweight, frontend-only user analytics dashboard that visualizes insights l
 *(Optional additions you may have: Avatar distribution pie chart, signup hours bar chart, and a list of recent users.)*
 
 ---
-
-##  Live Demo
-
-Open `index.html` in your browser or serve the project via a static server:
-```bash
-# Simple Python server:
-python3 -m http.server 8000
-# Then visit http://localhost:8000 in your browser
